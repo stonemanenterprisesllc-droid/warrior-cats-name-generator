@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Warrior Cat Name Generator — Clan Names for Kits, Apprentices & Leaders</title>
+<meta name="description" content="Generate Warrior Cat names instantly: prefix-and-suffix Clan names for kits, apprentices, warriors, and leaders. Free, unlimited, copy-ready — thousands of combinations.">
+<link rel="canonical" href="https://warriorcats.clickabletools.com/">
+<style>
+:root{--accent:#c2410c;--accent-dark:#9a3412}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6;color:#1f2937;background:#f8fafc}
+header{background:var(--accent);color:#fff;padding:1rem}
+header .wrap{max-width:760px;margin:0 auto}
+header a{color:#fff;text-decoration:none;font-weight:700;font-size:1.2rem}
+main{max-width:760px;margin:0 auto;padding:1rem}
+h1{font-size:1.5rem;margin:.75rem 0 .25rem}
+.tagline{color:#6b7280;margin-bottom:1rem}
+.tool{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:1.25rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.row{display:flex;gap:.75rem;flex-wrap:wrap;align-items:flex-end;margin-bottom:.75rem}
+.row>div{display:flex;flex-direction:column}
+label{font-weight:600;margin-bottom:.25rem}
+select{padding:.55rem;border:2px solid #d1d5db;border-radius:8px;font-size:1rem;font-family:inherit}
+.btn{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:.7rem 1.5rem;font-size:1.05rem;font-weight:700;cursor:pointer}
+.btn:hover{background:var(--accent-dark)}
+#out{display:none;margin-top:1rem}
+.name-card{border:1px solid #e5e7eb;border-left:4px solid var(--accent);border-radius:8px;padding:.6rem .9rem;margin:.4rem 0;display:flex;justify-content:space-between;align-items:center;gap:.5rem;flex-wrap:wrap}
+.name-card .n{font-size:1.15rem;font-weight:700}
+.name-card .meaning{font-size:.85rem;color:#6b7280;display:block;font-weight:400}
+.copybtn{background:#fff;border:1px solid #d1d5db;border-radius:6px;padding:.25rem .6rem;cursor:pointer;font-size:.85rem}
+.copybtn:hover{border-color:var(--accent);color:var(--accent)}
+.ad-slot{margin:1rem 0}
+article h2{margin:1.5rem 0 .5rem;font-size:1.2rem}
+article p,article li{margin:.5rem 0}
+article ul{padding-left:1.4rem}
+footer{max-width:760px;margin:2rem auto;padding:1rem;font-size:.85rem;color:#6b7280;border-top:1px solid #e5e7eb}
+footer a{color:#6b7280;margin-right:1rem}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a href="./">Warrior Cat Name Generator</a></div></header>
+<main>
+<h1>Warrior Cat Name Generator</h1>
+<p class="tagline">Prefix + suffix Clan names — for a kit, an apprentice, a warrior, or a leader.</p>
+
+<div class="tool">
+<div class="row">
+<div><label for="rank">Rank</label>
+<select id="rank"><option value="warrior" selected>Warrior</option><option value="any">Any</option><option value="kit">Kit</option><option value="apprentice">Apprentice</option><option value="leader">Leader</option></select></div>
+<div><label for="journey">Show name journey</label>
+<select id="journey"><option value="no" selected>No</option><option value="yes">Kit → Leader</option></select></div>
+<div><label for="qty">How many</label>
+<select id="qty"><option>1</option><option selected>5</option><option>10</option><option>20</option></select></div>
+</div>
+<button class="btn" id="gen">🐈 Generate Names</button>
+<div id="out" aria-live="polite"></div>
+</div>
+
+<div class="ad-slot" data-ad="top"></div>
+
+<article>
+<h2>How Warrior Cat names work</h2>
+<p>In the <em>Warriors</em> series, every Clan cat's name is built from a <strong>prefix</strong> and
+a <strong>suffix</strong>. The prefix is chosen at birth — usually a color, a plant, or a trait
+(<em>Fire-, Blue-, Bramble-, Silver-</em>) — and it stays with the cat for life. The
+<strong>suffix changes with rank</strong>: a newborn is a <em>kit</em> (Fire<strong>kit</strong>),
+an apprentice earns <em>-paw</em> (Fire<strong>paw</strong>), a full warrior receives a descriptive
+suffix from the Clan leader (Fire<strong>heart</strong>), and a leader takes
+<em>-star</em> (Fire<strong>star</strong>) along with nine lives. Medicine cats and queens keep their
+warrior names.</p>
+<h2>Using these names</h2>
+<ul>
+<li><strong>Roleplay &amp; fan fiction:</strong> pick a prefix that hints at your cat's look or
+personality, then choose the suffix that matches their rank in your story. Turn on
+<em>name journey</em> to see the whole life path from kit to leader.</li>
+<li><strong>Whole Clans:</strong> the 20-name batch fills a Clan roster fast — each name already
+reads like it belongs in ThunderClan or ShadowClan.</li>
+<li><strong>Make it yours:</strong> a leader's <em>-star</em> name is always their warrior prefix +
+"star," so "Bramble<strong>claw</strong>" becomes "Bramble<strong>star</strong>" when they lead.</li>
+</ul>
+<h2>How this generator builds names</h2>
+<p>Names combine a large pool of canon-style prefixes with rank-appropriate suffixes — thousands of
+combinations, filtered to read naturally. This is a fan tool for the <em>Warriors</em> universe and
+is not affiliated with or endorsed by the series' authors or publisher. Everything is generated in
+your browser; nothing is stored.</p>
+</article>
+
+<div class="ad-slot" data-ad="bottom"></div>
+</main>
+
+<footer>
+<p><a href="./">Home</a> <a href="about.html">About</a> <a href="privacy.html">Privacy Policy</a> <a href="terms.html">Terms of Use</a></p>
+<p>&copy; 2026 Warrior Cat Name Generator. All rights reserved.</p>
+<p>More free tools:
+<a href="https://dragonborn.clickabletools.com/">Dragonborn Names</a>
+<a href="https://tiefling.clickabletools.com/">Tiefling Names</a>
+<a href="https://drow.clickabletools.com/">Drow Names</a>
+<a href="https://tabaxi.clickabletools.com/">Tabaxi Names</a>
+<a href="https://orc.clickabletools.com/">Orc Names</a></p>
+</footer>
+
+<script>
+const $=id=>document.getElementById(id);
+const PRE=["Fire","Blue","Gray","Leaf","Tiger","Bramble","Squirrel","Sand","Dust","Raven","Crow","Thorn","Bright","Silver","Golden","Night","Frost","Ash","Cloud","Rowan","Holly","Ivy","Jay","Lion","Spotted","Yellow","Red","White","Black","Amber","Berry","Birch","Briar","Cinder","Dapple","Dawn","Eagle","Fern","Finch","Flame","Fox","Hawk","Hazel","Ice","Mist","Moss","Mouse","Nettle","Oak","Otter","Pebble","Pine","Poppy","Reed","Robin","Rose","Shadow","Sky","Snow","Sorrel","Spider","Stone","Storm","Swift","Willow","Wolf","Wren"];
+const SUF=["heart","claw","pelt","fur","tail","storm","stripe","whisker","foot","song","pool","leaf","flight","wing","fang","frost","breeze","shade","blaze","stream","step","feather","fall","gaze","patch","tuft","water","cloud","ear","jaw","leap","mask","moon","night","petal","pounce","splash","tooth","wind","berry"];
+function pick(a){return a[Math.floor(Math.random()*a.length)];}
+function build(pre,suf){return pre+suf;}
+function nameFor(rank,pre){
+ if(rank==='kit')return build(pre,'kit');
+ if(rank==='apprentice')return build(pre,'paw');
+ if(rank==='leader')return build(pre,'star');
+ return build(pre,pick(SUF));
+}
+$('gen').addEventListener('click',()=>{
+ let rank=$('rank').value; const journey=$('journey').value==='yes', n=+$('qty').value;
+ const cards=[];
+ for(let i=0;i<n;i++){
+  const pre=pick(PRE);
+  let display, copyText;
+  if(journey){
+   const warrior=build(pre,pick(SUF));
+   const path=[build(pre,'kit'),build(pre,'paw'),warrior,build(pre,'star')];
+   display=`<span class="n">${warrior}<span class="meaning">${path.join(' → ')}</span></span>`;
+   copyText=path.join(' → ');
+  }else{
+   let r=rank==='any'?pick(['kit','apprentice','warrior','leader']):rank;
+   const nm=nameFor(r,pre);
+   display=`<span class="n">${nm}<span class="meaning">${r}</span></span>`;
+   copyText=nm;
+  }
+  cards.push(`<div class="name-card">${display}<button class="copybtn" data-n="${copyText}">copy</button></div>`);
+ }
+ $('out').innerHTML=cards.join('');
+ $('out').style.display='block';
+ document.querySelectorAll('.copybtn').forEach(b=>b.addEventListener('click',async()=>{
+  try{await navigator.clipboard.writeText(b.dataset.n);}catch(e){}
+  b.textContent='copied!';setTimeout(()=>b.textContent='copy',1200);
+ }));
+});
+</script>
+</body>
+</html>
